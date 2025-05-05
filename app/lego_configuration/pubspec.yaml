@@ -1,19 +1,18 @@
 name: lego_configuration
 description: Configuration for Lego demo
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: ">=2.17.6 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  get_it: ^7.2.0
+  get_it: ^8.0.3
   lego_list:
     path: ../../feature/lego_list
 
 dev_dependencies:
-
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
